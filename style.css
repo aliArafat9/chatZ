@@ -1,0 +1,18 @@
+/* Make style sheets for different purposes as BUTTONS,BACKGROUNDSBORDERS,HEADERS */
+
+*{
+    /* m0+p0 */
+margin: 0;
+padding: 0;
+}
+
+.red{
+background-color: red;
+height: 200px;
+color: white;
+}   
+
+.green{
+    background-color: green;
+    color:rgba(116, 5, 5, 0.541);
+}
