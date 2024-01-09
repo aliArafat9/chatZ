@@ -38,11 +38,21 @@ body{
     justify-content: center;
     color: var(--text-color);
 }
+.chat-container .chat .ougoing{
+    background: var(--outgoing-chat-bg);
+    border: 1px solid var(--outgoing-chat-border);
+}
+.chat-container .chat .incoming{
+    background: var(--incoming-chat-bg);
+    border: 1px solid var(--incoming-chat-border);
+}
 
 .chat .chat-content{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .chat .chat-details{
